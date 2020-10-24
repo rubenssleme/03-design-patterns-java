@@ -6,7 +6,7 @@ public class Funcionario {
     private double salarioBruto;
     private Cargo cargo;
 
-    Funcionario(String nome, Cargo cargo, double salarioBruto) {
+    public Funcionario(String nome, Cargo cargo, double salarioBruto) {
         this.nome = nome;
         this.cargo = cargo;
         this.salarioBruto = salarioBruto;
