@@ -10,7 +10,7 @@ public class Observer {
         pedido.aprovar();
     }
 
-    static Pedido getPedido() {
+    public static Pedido getPedido() {
         Cliente cliente = new Cliente("Fulano");
         Pedido pedido = new Pedido(cliente);
 
