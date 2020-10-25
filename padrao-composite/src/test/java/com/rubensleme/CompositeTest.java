@@ -1,4 +1,4 @@
-package test.java.br.com;
+package composite;
 
 import com.rubensleme.Produto;
 import com.rubensleme.ProdutoComposto;
